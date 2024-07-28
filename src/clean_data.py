@@ -20,3 +20,14 @@ relevant_columns = [
     "StratificationCategory1",
     "Stratification1"
 ]
+
+# Open the original CSV file and the new file where we'll save the cleaned data
+with open(file_path, mode='r', newline='', encoding='utf-8') as csvfile, \
+     open(cleaned_file_path, mode='w', newline='', encoding='utf-8') as cleaned_csvfile:
+    
+    # Create a CSV reader and writer
+    csv_reader = csv.DictReader(csvfile)
+    csv_writer = csv.DictWriter(cleaned_csvfile, fieldnames=relevant_columns)
+    
+    # Write the header to the cleaned CSV
+    csv_writer.writeheader()
