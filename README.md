@@ -1,5 +1,4 @@
-Cleansing Data with Python for Tableau Dashboard
-
+## Cleansing Data with Python for Tableau Dashboard
 My project involves transforming a csv dataset from the CDC on disability statistics into a clean, Tableau-ready format.
 
 ## Project Description
