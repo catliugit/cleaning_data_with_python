@@ -31,3 +31,14 @@ with open(file_path, mode='r', newline='', encoding='utf-8') as csvfile, \
     
     # Write the header to the cleaned CSV
     csv_writer.writeheader()
+
+    # Iterate over each row in the original CSV
+    for row in csv_reader:
+        
+        # Create a new dictionary only with the relevant columns
+        cleaned_row = {key: row[key] for key in relevant_columns if key in row}
+        
+        # Write the cleaned row to the new CSV file
+        csv_writer.writerow(cleaned_row)
+
+
