@@ -10,6 +10,7 @@ The original dataset was sourced from the CDC's "Prevalence of Disability Status
 ## Cleaning Process
 1. Uncleansed Data: The raw, uncleaned data can be viewed [here](https://github.com/catliugit/cleaning_data_with_python/blob/main/input_data/DHDS_-_Prevalence_of_Disability_Status_and_Types_20240721.csv).
 2. Python Code: The Python script used for cleaning the data is available in this repository as [Clean_Data.py](https://github.com/catliugit/cleaning_data_with_python/blob/main/src/clean_data.py)
+   - You can also view the [commit history](https://github.com/catliugit/cleaning_data_with_python/blame/main/src/clean_data.py).
 3. Cleansed Data: The cleaned and processed data is accessible [cleansed data](https://github.com/catliugit/cleaning_data_with_python/blob/main/output_data/disability_data_clean.csv) 
 
 ## Tableau Visualization
