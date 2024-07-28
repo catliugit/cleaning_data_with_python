@@ -41,4 +41,5 @@ with open(file_path, mode='r', newline='', encoding='utf-8') as csvfile, \
         # Write the cleaned row to the new CSV file
         csv_writer.writerow(cleaned_row)
 
+print(f"Data cleaned and saved to {cleaned_file_path}")
 
